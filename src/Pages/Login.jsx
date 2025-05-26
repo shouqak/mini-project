@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault()
     if (data && name === data.name && pass === data.pass) {
       setError("")
-      navigate("/")
+      navigate("/home")
     } else {
       setError("الاسم أو كلمة المرور غير صحيحة")
     }
@@ -89,7 +89,7 @@ function Login() {
               <p>
                 ما عندك حساب{" "}
                 <Link
-                  to="/signup"
+                  to="/"
                   className="text-black hover:underline"
                 >
                   {" "}

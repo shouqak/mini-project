@@ -11,7 +11,7 @@ function SingupPage() {
   }
   return (
     <>
-      <div className="min-h-screen bg-amber-50 flex items-center justify-center p-6">
+      <div className="min-h-screen flex items-center justify-center p-6">
         <Signup onSubmit={handleFormSubmit} />
       </div>
       <div>Home</div>
