@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../Component/Nav'
 import Hero from '../Component/Hero'
-import CalculateBMI from '../Component/calculateBMI'
+import CalculateBMI from "../Component/CalculateBMI"
 import Footer from '../Component/Footer'
 function Home() {
   return (
